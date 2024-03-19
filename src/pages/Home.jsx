@@ -35,6 +35,15 @@ const Home = () => {
           Share your ride and dash in no time!
         </h2>
       </Helmet>
+      <Helmet>
+        <h2 style="display: none;" rel="canonical">
+          Share your ride and dash in no time!
+        </h2>
+
+        <a href="https://despii-ten.vercel.app/" rel="canonical">
+          Fast Transport
+        </a>
+      </Helmet>
 
       <Helmet>
         <meta property="og:title" content="Despii" />
@@ -46,8 +55,6 @@ const Home = () => {
         <meta property="og:image" content="src\utils\bg-main.png" />
         <meta property="og:type" content="website" />
       </Helmet>
-
-      
 
       <Hero />
       <Features />
