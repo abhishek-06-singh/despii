@@ -39,19 +39,19 @@ const FeaturesMain = () => {
         )}
         {selectedLanguage === "French" && (
           <div className="flex flex-col">
-            <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left">
+            <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left font-manrope">
               Fonctionnalités de l'application
             </span>
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 ">
-              Gère tes déplacements
-            </p>
-            <span
-              className="bg-gradient-to-r from-amber-600
+            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
+              Gère tes déplacements{" "}
+              <span
+                className="bg-gradient-to-r from-amber-600
           via-amber-700 to-pink-700 text-transparent bg-clip-text 
           font-bold lg:text-center text-left   text-5xl lg:text-6xl"
-            >
-              autrement
-            </span>
+              >
+                autrement
+              </span>
+            </p>
           </div>
         )}
 

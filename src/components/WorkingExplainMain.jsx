@@ -46,7 +46,7 @@ const WorkingExplainMain = () => {
           via-amber-700 to-pink-700 text-transparent bg-clip-text 
           font-bold lg:text-center text-left ml-2"
             >
-              rendant service!
+              rendant service
             </span>
           </p>
         </div>

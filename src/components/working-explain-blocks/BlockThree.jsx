@@ -48,7 +48,7 @@ const BlockThree = () => {
                   needs, ensuring a comfortable and convenient journey tailored
                   just for you.
                 </p>
-                <div className="mt-20 p-3 text-white mb-5 ">01/03</div>
+                <div className="mt-20 p-3 text-white mb-5 ">03/03</div>
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
@@ -61,7 +61,7 @@ const BlockThree = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden  mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-white ">03/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
               Match with a rider
             </h2>
@@ -118,7 +118,7 @@ const BlockThree = () => {
                   préférences et à tes besoins, garantissant un voyage
                   confortable et pratique, conçu spécialement pour toi
                 </p>
-                <div className="mt-20 p-3 text-white mb-5 ">01/03</div>
+                <div className="mt-20 p-3 text-white mb-5 ">03/03</div>
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
@@ -131,7 +131,7 @@ const BlockThree = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-white ">03/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
               Match avec un passager
             </h2>

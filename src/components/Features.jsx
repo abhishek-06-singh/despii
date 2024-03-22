@@ -30,7 +30,7 @@ const Features = () => {
                 className=" h-full w-auto mt-10"
               />
               {selectedLanguage === "English" && (
-                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4">
+                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope">
                   <div className="lg:max-w-lg">
                     <div className="p-2 border-2 border-white rounded-2xl w-32">
                       <h2 className="text-base  leading-7 text-white font-semibold ">
@@ -52,10 +52,10 @@ const Features = () => {
                 </div>
               )}
               {selectedLanguage === "French" && (
-                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4">
+                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope">
                   <div className="lg:max-w-lg">
-                    <div className="p-2 border-2 border-white rounded-2xl w-36">
-                      <h2 className="text-base  leading-7 text-white font-semibold ">
+                    <div className="p-2 border-2 border-white rounded-2xl w-40">
+                      <h2 className="  leading-7 text-white mx-auto ml-1 ">
                         NORTE MISSION
                       </h2>
                     </div>
@@ -81,7 +81,7 @@ const Features = () => {
           </div>
         </div>
         {selectedLanguage === "English" && (
-          <div className="lg:hidden mt-10">
+          <div className="lg:hidden mt-10 font-manrope">
             <div className="p-2 border-2 border-white rounded-2xl w-32">
               <h2 className="text-base  leading-7 text-white font-semibold ">
                 OUR MISSION
@@ -99,9 +99,9 @@ const Features = () => {
           </div>
         )}
         {selectedLanguage === "French" && (
-          <div className="lg:hidden mt-10">
-            <div className="p-2 border-2 border-white rounded-2xl w-36">
-              <h2 className="text-base  leading-7 text-white font-semibold ">
+          <div className="lg:hidden mt-10 font-manrope">
+            <div className="p-2 border-2 border-white rounded-2xl w-40">
+              <h2 className="text-base  leading-7 ml-1 text-white  ">
                 NORTE MISSION
               </h2>
             </div>

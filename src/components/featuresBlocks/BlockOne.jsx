@@ -4,7 +4,7 @@ import { setLanguage, selectLanguage } from "../../store/languageSlice";
 import { useSelector, useDispatch } from "react-redux";
 
 const BlockOne = () => {
-      const selectedLanguage = useSelector(selectLanguage);
+  const selectedLanguage = useSelector(selectLanguage);
   return (
     <div className="overflow-hidden bg-neutral-900  font-manrope">
       {selectedLanguage === "English" && (
@@ -12,7 +12,7 @@ const BlockOne = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg lg:mt-20">
-                <p className="mt-2 text-5xl font-bold tracking-tight text-white  ">
+                <p className="mt-2 text-5xl  tracking-tight text-white  ">
                   Spontaneous or Scheduled Adventures
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-100 hidden lg:block md:block">
@@ -36,7 +36,7 @@ const BlockOne = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg lg:mt-20">
-                <p className="mt-2 text-5xl font-bold tracking-tight text-white  ">
+                <p className="mt-2 text-5xl tracking-tight text-white  ">
                   En mode Spontané ou Programmé
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-100 hidden lg:block md:block">

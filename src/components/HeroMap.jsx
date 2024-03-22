@@ -40,17 +40,17 @@ const HeroMap = () => {
       )}
       {selectedLanguage === "French" && (
         <div className="flex flex-col">
-          <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 ">
+          <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
             Partage ton trajet et trace direct
           </p>
           <span
             className="bg-gradient-to-r from-amber-600
-          via-amber-700 to-pink-700 text-transparent bg-clip-text 
-          font-bold lg:text-center text-left   text-5xl lg:text-6xl"
+          via-amber-800 to-purple-900 text-transparent bg-clip-text 
+          font-bold lg:text-center text-left  text-5xl lg:text-6xl font-manrope"
           >
             sans prise de tête!
           </span>
-          <p className="text-white mx-auto mt-5">
+          <p className="text-white mx-auto mt-5 font-manrope">
             Contribue à une ville plus verte en partageant ton trajet avec
             d'autres, tout en profitant d'arriver à destination plus rapidement.
           </p>

@@ -47,7 +47,7 @@ const BlockTwo = () => {
                   intelligent route suggestion feature, providing detailed
                   information and recommendations
                 </p>
-                <div className="mt-20 p-3 text-white mb-5 ">01/03</div>
+                <div className="mt-20 p-3 text-white mb-5 ">02/03</div>
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
@@ -60,7 +60,7 @@ const BlockTwo = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden  mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-white ">02/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
               Propose a route
             </h2>
@@ -118,7 +118,7 @@ const BlockTwo = () => {
                   fournissant des informations détaillées et des
                   recommandations.
                 </p>
-                <div className="mt-20 p-3 text-white mb-5 ">01/03</div>
+                <div className="mt-20 p-3 text-white mb-5 ">02/03</div>
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
@@ -131,7 +131,7 @@ const BlockTwo = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-white ">02/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
               Propose ton trajet
             </h2>

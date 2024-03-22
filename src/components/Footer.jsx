@@ -23,7 +23,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-neutral-900">
+    <div className=" flex flex-col bg-neutral-900">
       <div className="flex-grow bg-neutral-800 rounded-t-3xl">
         <img
           src={smallLogo}
@@ -66,7 +66,7 @@ const Footer = () => {
         )}
       </div>
 
-      <div className="relative w-full bg-neutral-800 mt-auto flex">
+      <div className="relative w-full bg-neutral-800 pt-5 flex">
         <img
           src={footerImg}
           alt="footerImg"
