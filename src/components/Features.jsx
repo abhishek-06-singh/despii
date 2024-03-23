@@ -6,6 +6,11 @@ import { useSelector, useDispatch } from "react-redux";
 import appImg from "./img/appImg.png";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import BgImg1 from "./img/BgImg1.png";
+import BgImg2 from "./img/BgImg2.png";
+import BgImg3 from "./img/BgImg3.png";
+import BgImg4 from "./img/BgImg4.png";
+import BgImg5 from "./img/BgImg5.png";
 
 const Features = () => {
   const selectedLanguage = useSelector(selectLanguage);
@@ -22,15 +27,44 @@ const Features = () => {
       </Helmet>
       <div className="p-10 lg:bg-gradient-to-b from-black to-neutral-900 bg-neutral-900">
         <div className=" overflow-hidden bg-[#DC6617] py-32 sm:py-32 rounded-3xl lg:h-[46rem] h-96 md:h-[46rem]">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <img
+            src={BgImg1}
+            alt="Background Image"
+            className="absolute right-10 -mt-24 z-10 hidden lg:block"
+          />
+          <img
+            src={BgImg2}
+            alt="Background Image"
+            className="absolute right-10 mt-36 z-10 hidden lg:block"
+          />
+          <img
+            src={BgImg3}
+            alt="Background Image"
+            className="absolute right-10 mt-80 py-3 z-10 hidden lg:block"
+          />
+
+          {/* <div className="overflow-hidden object-cover"> */}
+          <img
+            src={BgImg4}
+            alt="Background Image"
+            className="absolute right-11 p-0 -mt-28 lg:hidden md:hidden sm:block z-10 object-cover"
+          />
+          <img
+            src={BgImg5}
+            alt="Background Image"
+            className="absolute right-24 -mt-10 lg:hidden md:hidden sm:block z-10 object-cover"
+          />
+          {/* </div> */}
+
+          <div className="mx-auto max-w-7xl px-6 lg:px-8 z-50">
             <div className="mx-auto lg:grid max-w-2xl grid-cols-1 gap-x-8   lg:mx-0 lg:max-w-none lg:grid-cols-2 ">
               <img
                 src={phoneimg}
                 alt="Product screenshot"
-                className=" h-full w-auto mt-10"
+                className="h-full w-auto mt-24 md:mt-10 lg:mt-10 z-50"
               />
               {selectedLanguage === "English" && (
-                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope">
+                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope z-50">
                   <div className="lg:max-w-lg">
                     <div className="p-2 border-2 border-white rounded-2xl w-32">
                       <h2 className="text-base  leading-7 text-white font-semibold ">
@@ -52,7 +86,7 @@ const Features = () => {
                 </div>
               )}
               {selectedLanguage === "French" && (
-                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope">
+                <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 font-manrope z-50">
                   <div className="lg:max-w-lg">
                     <div className="p-2 border-2 border-white rounded-2xl w-40">
                       <h2 className="  leading-7 text-white mx-auto ml-1 ">
@@ -87,7 +121,7 @@ const Features = () => {
                 OUR MISSION
               </h2>
             </div>
-            <p className="mt-10  tracking-tight text-white text-6xl font-manrope">
+            <p className="mt-10  tracking-tight text-white text-4xl font-manrope">
               Introducing the <br /> Next Generation of <br /> Moped Mobility
             </p>
             <Link rel="canonical">
@@ -105,7 +139,7 @@ const Features = () => {
                 NORTE MISSION
               </h2>
             </div>
-            <p className="mt-10  tracking-tight text-white text-6xl font-manrope">
+            <p className="mt-10  tracking-tight text-white text-4xl font-manrope">
               Un nouveau moyen <br /> de transport, basé <br /> sur l'économie
               de partage.
             </p>

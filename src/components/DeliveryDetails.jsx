@@ -47,9 +47,12 @@ function DeliveryDetails() {
               className="h-full w-full absolute object-cover opacity-20"
             />
 
-            <h2 className="text-white text-5xl mb-4">
+            <h2 className="text-white text-5xl mb-4 z-999">
               However you{" "}
-              <span className="bg-gradient-to-r text-5xl  from-amber-600 via-pink-900 to-purple-900 text-transparent bg-clip-text  font-bold lg:text-center text-left">
+              <span
+                className=" text-5xl  bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text  font-bold lg:text-center text-left z-999"
+              >
                 need it delivered{" "}
               </span>{" "}
             </h2>
@@ -60,7 +63,7 @@ function DeliveryDetails() {
               {deliveryType.map((item, idx) => (
                 <div
                   key={idx}
-                  className="px-8 py-24 m-2 bg-gradient-to-b from-purple-600/40  to-orange-500/40 rounded-md visible font-manrope text-white text-2xl "
+                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl "
                 >
                   {item}
                 </div>
@@ -71,7 +74,7 @@ function DeliveryDetails() {
               {deliveryType2.map((item, idx) => (
                 <div
                   key={idx}
-                  className="px-11 py-24  m-2 bg-gradient-to-b from-purple-600/40  to-orange-500/40 rounded-md visible font-manrope text-white text-2xl"
+                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl"
                 >
                   {item}
                 </div>
@@ -79,7 +82,7 @@ function DeliveryDetails() {
             </div>
 
             <div>
-              <p className="text-lg text-white">
+              <p className="text-lg text-white p-2">
                 While live tracking the courier all long
               </p>
             </div>
@@ -96,7 +99,10 @@ function DeliveryDetails() {
 
             <h2 className="text-white text-5xl mb-4">
               Quelle que soit la manière dont tu{" "}
-              <span className="bg-gradient-to-r text-5xl  from-amber-600 via-pink-900 to-purple-900 text-transparent bg-clip-text  font-bold lg:text-center text-left">
+              <span
+                className=" text-5xl  bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text  font-bold lg:text-center text-left"
+              >
                 veux être livré{" "}
               </span>{" "}
             </h2>
@@ -105,7 +111,7 @@ function DeliveryDetails() {
               {deliveryTypeFrench.map((item, idx) => (
                 <div
                   key={idx}
-                  className="px-8 py-24 m-2 bg-gradient-to-b from-purple-600/40  to-orange-500/40 rounded-md visible font-manrope text-white text-2xl"
+                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl "
                 >
                   {item}
                 </div>
@@ -116,7 +122,7 @@ function DeliveryDetails() {
               {deliveryType2French.map((item, idx) => (
                 <div
                   key={idx}
-                  className="px-11 py-24  m-2 bg-gradient-to-b from-purple-600/40  to-orange-500/40 rounded-md visible font-manrope text-white text-2xl "
+                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl"
                 >
                   {item}
                 </div>

@@ -12,28 +12,8 @@ const BlockOne = () => {
         <>
           <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
             <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-              <svg
-                viewBox="0 0 1024 1024"
-                className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-                aria-hidden="true"
-              >
-                <circle
-                  cx={512}
-                  cy={512}
-                  r={512}
-                  fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
-                  fillOpacity="0.7"
-                />
-                <defs>
-                  <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                    <stop stopColor="#d97706 " />
-                    <stop offset={1} stopColor="#d97706 " />
-                  </radialGradient>
-                </defs>
-              </svg>
-
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
-                <div className=" p-2 rounded-lg border-2 border-white w-10 mt-5">
+                <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">
                   <FaArrowRight className="text-2xl text-white" />
                 </div>
                 <div className="lg:mt-20">
@@ -62,7 +42,7 @@ const BlockOne = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden  mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-orange-500 ">01/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
               Create your driver profile
             </h2>
@@ -77,6 +57,11 @@ const BlockOne = () => {
               and commitment to providing safe and reliable rides, connecting
               you with passengers who value efficiency
             </p>
+            <div className="flex w-full ">
+              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
+                <FaArrowRight className="text-2xl text-white" />
+              </span>
+            </div>
           </div>
         </>
       )}
@@ -84,33 +69,13 @@ const BlockOne = () => {
         <>
           <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
             <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-              <svg
-                viewBox="0 0 1024 1024"
-                className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-                aria-hidden="true"
-              >
-                <circle
-                  cx={512}
-                  cy={512}
-                  r={512}
-                  fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
-                  fillOpacity="0.7"
-                />
-                <defs>
-                  <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                    <stop stopColor="#d97706 " />
-                    <stop offset={1} stopColor="#d97706 " />
-                  </radialGradient>
-                </defs>
-              </svg>
-
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
-                <div className=" p-2 rounded-lg border-2 border-white w-10 mt-5">
+                <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">
                   <FaArrowRight className="text-2xl text-white" />
                 </div>
                 <div className="lg:mt-20">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl ">
-                    Crée ton profil
+                    Rends-toi service en rendant service
                   </h2>
                 </div>
 
@@ -133,9 +98,9 @@ const BlockOne = () => {
             </div>
           </div>
           <div className="bg-neutral-900  flex flex-col lg:hidden mt-14 font-manrope">
-            <div className=" text-white ">01/03</div>
+            <div className=" text-orange-500 ">01/03</div>
             <h2 className="text-3xl  tracking-tight text-white sm:text-4xl font-manrope  mt-6">
-              Crée ton profil
+              Rends-toi service en rendant service
             </h2>
             <img
               className=" w-auto max-w-none rounded-[45px] bg-white/5 ring-1 ring-white/10 mt-6"
@@ -149,6 +114,11 @@ const BlockOne = () => {
               trajets sûrs et fiables, pendant qu'on te met en contact avec des
               passagers qui valorisent le respect et l'efficacité.
             </p>
+            <div className="flex w-full ">
+              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
+                <FaArrowRight className="text-2xl text-white" />
+              </span>
+            </div>
           </div>
         </>
       )}

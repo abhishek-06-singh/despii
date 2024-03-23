@@ -47,8 +47,8 @@ const Footer = () => {
           </div>
         </div>
         {selectedLanguage === "English" && (
-          <div className="flex flex-col mx-auto space-x-5 mt-10 bg-neutral-800 w-full">
-            <div className="mx-auto flex space-x-10">
+          <div className="flex flex-col mx-auto space-x-5 mt-10 bg-neutral-800 w-full p-2">
+            <div className="mx-auto flex flex-col lg:flex-row lg:space-x-10 text-center">
               <h6 className="text-gray-500">About</h6>
               <h6 className="text-gray-500">Become a driver</h6>
               <h6 className="text-gray-500">Contact Us</h6>
@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
         )}
         {selectedLanguage === "French" && (
-          <div className="flex flex-col mx-auto space-x-5 mt-10 bg-neutral-800 w-full">
-            <div className="mx-auto flex space-x-10">
+          <div className="flex flex-col mx-auto space-x-5 mt-10 bg-neutral-800 w-full p-2">
+            <div className="mx-auto flex flex-col lg:flex-row lg:space-x-10 text-center">
               <h6 className="text-gray-500">A propos</h6>
               <h6 className="text-gray-500">Devenir Driver</h6>
               <h6 className="text-gray-500">Nous contacter</h6>
@@ -76,8 +76,8 @@ const Footer = () => {
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           onClick={scrollToTop}
         >
-          <button className="bg-orange-600 p-3 border-2 border-white hover:bg-orange-400 rounded-xl shadow-lg animate-pulse">
-            <FaArrowUp className="text-2xl text-white" />
+          <button className="bg-orange-600 lg:p-6 p-3 md:p-6 border-4 border-orange-300/50 hover:bg-orange-400 lg:rounded-3xl rounded-xl shadow-lg animate-pulse">
+            <FaArrowUp className="text-xl text-white" />
           </button>
         </div>
       </div>

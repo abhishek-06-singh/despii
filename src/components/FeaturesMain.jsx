@@ -25,15 +25,15 @@ const FeaturesMain = () => {
             <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left">
               App Features
             </span>
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 ">
+            <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 ">
               Enhancing Your Ride
-              <p
-                className="bg-gradient-to-r from-amber-600
-          via-amber-700 to-pink-700 text-transparent bg-clip-text 
-          font-bold lg:text-center text-left ml-2"
+              <span
+                className="bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text 
+          font-bold lg:text-center text-left ml-2 text-4xl lg:text-6xl"
               >
                 Experience
-              </p>
+              </span>
             </p>
           </div>
         )}
@@ -42,12 +42,12 @@ const FeaturesMain = () => {
             <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left font-manrope">
               Fonctionnalités de l'application
             </span>
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
+            <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
               Gère tes déplacements{" "}
               <span
-                className="bg-gradient-to-r from-amber-600
-          via-amber-700 to-pink-700 text-transparent bg-clip-text 
-          font-bold lg:text-center text-left   text-5xl lg:text-6xl"
+                className="bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text 
+          font-bold lg:text-center text-left ml-2 text-4xl lg:text-6xl"
               >
                 autrement
               </span>

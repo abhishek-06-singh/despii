@@ -14,7 +14,7 @@ const BlockTwo = () => {
               Safety & Thrifty
             </p>
             <img src={rowtwo} width={2432} height={1442} />
-            <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:pr-8 lg:pt-4 ml-28 mt-10">
               <div className="lg:max-w-lg lg:mt-20">
                 <p className="mt-2 text-5xl  tracking-tight text-white hidden lg:block md:block  ">
                   Safety & Thrifty
@@ -41,7 +41,7 @@ const BlockTwo = () => {
               Sécure et Pas cher
             </p>
             <img src={rowtwo} width={2432} height={1442} />
-            <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:pr-8 lg:pt-4 ml-28 mt-10">
               <div className="lg:max-w-lg lg:mt-20">
                 <p className="mt-2 text-5xl  tracking-tight text-white hidden lg:block md:block  ">
                   Sécure et Pas cher
@@ -54,6 +54,7 @@ const BlockTwo = () => {
               </div>
             </div>
           </div>
+
           <p className="mt-6 text-lg leading-8 text-gray-100 md:hidden lg:hidden">
             Un moyen de voyage fiable et abordable avec notre solution de
             mobilité axée sur la sécurité, garantissant une tranquillité

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
+import { Barsvg } from "../utils/svgs/svgs";
 import { useSelector, useDispatch } from "react-redux";
 import { toggleDarkMode, selectDarkMode } from "../store/darkModeSlice";
 import { setLanguage, selectLanguage } from "../store/languageSlice";
@@ -13,6 +14,7 @@ import { motion } from "framer-motion"; // Import motion from Framer Motion
 import { FaChevronDown } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -73,7 +75,10 @@ const Hero = () => {
                 onClick={() => setMobileMenuOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>
-                <MdUnarchive className="h-6 w-6" aria-hidden="true" />
+                <HiBars3BottomRight
+                  className=" text-white text-3xl"
+                  aria-hidden="true"
+                />
               </button>
             </div>
             <Menu as="div" className="relative  text-left hidden lg:block">
@@ -140,8 +145,8 @@ const Hero = () => {
                 >
                   <span className="sr-only">Close menu</span>
 
-                  <MdUnarchive
-                    className="h-6 w-6 text-orange-600"
+                  <HiBars3BottomRight
+                    className="h-6 w-6 text-white"
                     aria-hidden="true"
                   />
                 </button>
@@ -220,13 +225,16 @@ const Hero = () => {
         <div className="relative  overflow-hidden h-[30rem]  md:h-screen lg:h-screen z-40">
           <img
             src={HeroBg}
-            alt=""
+            alt="Background Image"
             className="absolute h-full w-full object-cover"
           />
+
+          <div className="absolute inset-0 bg-black opacity-65"></div>
+
           <div className="relative flex justify-center items-center lg:pt-[25rem] pt-[20rem] ">
             <img src={bike} alt="bike" className="absolute  object-cover " />
           </div>
-          <div className=" flex relative h-96  w-full bg-black opacity-80 filter blur-3xl rounded-t-full justify-center items-center mx-auto bottom-10 lg:hidden md:hidden  z-10"></div>
+          <div className=" flex relative h-96  w-full bg-black opacity-80 filter blur-3xl rounded-t-full justify-center items-center mx-auto bottom-10 lg:hidden md:hidden z-10"></div>
           <div className="relative mx-auto max-w-6xl flex z-50 hidden lg:block md:block">
             {selectedLanguage === "English" && (
               <div className="text-center">
