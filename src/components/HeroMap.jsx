@@ -24,12 +24,12 @@ const HeroMap = () => {
       <div className="bg-neutral-900 lg:p-20 py-20 px-10 font-manrope">
         {selectedLanguage === "English" && (
           <div className="flex flex-col">
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
+            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope font-bold">
               Share your ride and
               <span
                 className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-          font-bold lg:text-center text-left ml-2"
+          font-bold lg:text-center text-left ml-2 "
               >
                 dash in no time!
               </span>
