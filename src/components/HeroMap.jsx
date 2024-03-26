@@ -70,7 +70,7 @@ const HeroMap = () => {
             className="w-full h-auto"
           />
         </div>
-        <div className="flex flex-col justify-center items-center mt-10 md:p-20 p-2 lg:hidden">
+        <div className="flex flex-col justify-center items-center mt-10 md:p-20 p-2 lg:hidden space-y-8">
           <img src={img1} alt="map-image" className="w-full h-auto" />
           <img src={img2} alt="map-image" className="w-full h-auto" />{" "}
           <img src={img4} alt="map-image" className="w-full h-auto" />
