@@ -57,11 +57,6 @@ const BlockOne = () => {
               and commitment to providing safe and reliable rides, connecting
               you with passengers who value efficiency
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}
@@ -114,11 +109,6 @@ const BlockOne = () => {
               trajets sûrs et fiables, pendant qu'on te met en contact avec des
               passagers qui valorisent le respect et l'efficacité.
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}

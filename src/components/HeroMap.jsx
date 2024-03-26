@@ -43,13 +43,13 @@ const HeroMap = () => {
         )}
         {selectedLanguage === "French" && (
           <div className="flex flex-col">
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope">
+            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope font-normal">
               Partage ton trajet et trace direct
             </p>
             <span
               className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-           lg:text-center text-left ml-2 text-5xl lg:text-6xl"
+           lg:text-center text-left ml-2 text-5xl lg:text-6xl font-normal"
             >
               sans prise de tête!
             </span>
@@ -73,8 +73,8 @@ const HeroMap = () => {
         <div className="flex flex-col justify-center items-center mt-10 md:p-20 p-2 lg:hidden">
           <img src={img1} alt="map-image" className="w-full h-auto" />
           <img src={img2} alt="map-image" className="w-full h-auto" />{" "}
-          <img src={img3} alt="map-image" className="w-full h-auto" />{" "}
           <img src={img4} alt="map-image" className="w-full h-auto" />
+          <img src={img3} alt="map-image" className="w-full h-auto" />{" "}
         </div>
       </div>
     </>

@@ -76,9 +76,9 @@ const BannerInfo = () => {
             </p>
           </div>
 
-          <div className="lg:hidden md:hidden sm:block md:hidden flex flex-col bg-neutral-600/10 lg:p-14 md:p-14 p-0 rounded-2xl shadow-lg">
+          <div className="lg:hidden md:hidden sm:block  flex flex-col bg-neutral-600/10 lg:p-14 md:p-14 p-0 rounded-2xl shadow-lg">
             <p
-              className="bbg-gradient-to-r from-[#DC6617]
+              className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
            ml-2  text-4xl h-auto p-4"
             >

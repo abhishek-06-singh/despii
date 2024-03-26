@@ -55,11 +55,6 @@ const BlockTwo = () => {
               route suggestion feature, providing detailed information and
               recommendations
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}
@@ -111,11 +106,6 @@ const BlockTwo = () => {
               fonction de suggestion d'itinéraire intelligente, fournissant des
               informations détaillées et des recommandations.
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}

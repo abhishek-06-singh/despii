@@ -56,11 +56,6 @@ const BlockThree = () => {
               needs, ensuring a comfortable and convenient journey tailored just
               for you.
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}
@@ -111,11 +106,6 @@ const BlockThree = () => {
               préférences et à tes besoins, garantissant un voyage confortable
               et pratique, conçu spécialement pour toi
             </p>
-            <div className="flex w-full ">
-              <span className="border-2 border-white rounded-xl p-3 ml-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
-                <FaArrowRight className="text-2xl text-white" />
-              </span>
-            </div>
           </div>
         </>
       )}

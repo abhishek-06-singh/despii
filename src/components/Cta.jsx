@@ -8,12 +8,17 @@ import appImgTwo from "../utils/Container (1).png";
 import bgImg1 from "./img/bg1Img.png";
 import bgImg2 from "./img/bg2Img.png";
 import bgImg3 from "./img/bg3Img.png";
-
+import bottomImg from "../utils/bottombox.png";
 const Cta = () => {
   const selectedLanguage = useSelector(selectLanguage);
   return (
     <div className="p-10 lg:bg-gradient-to-b from-black to-neutral-900 bg-neutral-900">
-      <div className=" overflow-hidden bg-[#DC6617] py-32 sm:py-32 rounded-3xl lg:h-[40rem] h-96 sm:h-full md:h-[40rem]">
+      <img
+        src={bottomImg}
+        alt="Background Image"
+        className="overflow-hidden md:hidden lg:hidden w-full h-full"
+      />
+      <div className=" overflow-hidden bg-[#DC6617] py-32 sm:py-32 rounded-3xl lg:h-[40rem] h-96 sm:h-full md:h-[40rem] hidden md:block lg:block">
         {/* <div className="hidden lg:block -z-10"> */}
         <img
           src={bgImg1}

@@ -11,6 +11,7 @@ import BgImg2 from "./img/BgImg2.png";
 import BgImg3 from "./img/BgImg3.png";
 import BgImg4 from "./img/BgImg4.png";
 import BgImg5 from "./img/BgImg5.png";
+import TopImg from "../utils/topbox.png";
 
 const Features = () => {
   const selectedLanguage = useSelector(selectLanguage);
@@ -26,7 +27,12 @@ const Features = () => {
         <meta name="keywords" content="Transport,Easy Ride,Transport Service" />
       </Helmet>
       <div className="p-10 lg:bg-gradient-to-b from-black to-neutral-900 bg-neutral-900">
-        <div className=" overflow-hidden bg-[#DC6617] py-32 sm:py-32 rounded-3xl lg:h-[46rem] h-96 md:h-[46rem]">
+        <img
+          src={TopImg}
+          alt="Background Image"
+          className="overflow-hidden md:hidden lg:hidden w-full h-full"
+        />
+        <div className=" overflow-hidden bg-[#DC6617] py-32 sm:py-32 rounded-3xl lg:h-[46rem] h-96 md:h-[46rem] hidden md:block lg:block">
           <img
             src={BgImg1}
             alt="Background Image"
