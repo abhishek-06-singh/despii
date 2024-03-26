@@ -43,13 +43,13 @@ const HeroMap = () => {
         )}
         {selectedLanguage === "French" && (
           <div className="flex flex-col">
-            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope font-normal">
+            <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope font-bold">
               Partage ton trajet et trace direct
             </p>
             <span
               className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-           lg:text-center text-left ml-2 text-5xl lg:text-6xl font-normal"
+           lg:text-center text-left ml-2 text-5xl lg:text-6xl font-bold"
             >
               sans prise de tête!
             </span>
