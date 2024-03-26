@@ -30,12 +30,12 @@ const Hero = () => {
   const toggleMode = () => {
     dispatch(toggleDarkMode());
   };
-  const navigation = [
-    { name: "Product", href: "#" },
-    { name: "Features", href: "#" },
-    { name: "Marketplace", href: "#" },
-    { name: "Company", href: "#" },
-  ];
+  // const navigation = [
+  //   { name: "Product", href: "#" },
+  //   { name: "Features", href: "#" },
+  //   { name: "Marketplace", href: "#" },
+  //   { name: "Company", href: "#" },
+  // ];
 
   return (
     <>
@@ -154,7 +154,7 @@ const Hero = () => {
               <div className="mt-6 flow-root ">
                 <div className="-my-6 divide-y divide-gray-500/25">
                   <div className="space-y-2 py-6">
-                    {navigation.map((item) => (
+                    {/* {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -162,7 +162,7 @@ const Hero = () => {
                       >
                         {item.name}
                       </a>
-                    ))}
+                    ))} */}
                   </div>
                   <Menu as="div" className="text-left ">
                     <div>
