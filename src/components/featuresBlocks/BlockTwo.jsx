@@ -15,7 +15,7 @@ const BlockTwo = () => {
             </p>
             <img src={rowtwo} width={2432} height={1442} />
             <div className="lg:pr-8 lg:pt-4 ml-28 mt-10">
-              <div className="lg:max-w-lg lg:mt-20">
+              <div className="lg:max-w-lg lg:mt-32">
                 <p className="mt-2 text-5xl  tracking-tight text-white hidden lg:block md:block  ">
                   Safety & Thrifty
                 </p>
@@ -42,7 +42,7 @@ const BlockTwo = () => {
             </p>
             <img src={rowtwo} width={2432} height={1442} />
             <div className="lg:pr-8 lg:pt-4 ml-28">
-              <div className="lg:max-w-lg lg:mt-20">
+              <div className="lg:max-w-lg lg:mt-32">
                 <p className="mt-2 text-5xl  tracking-tight text-white hidden lg:block md:block  font-manrope">
                   Sécure et Pas cher
                 </p>
