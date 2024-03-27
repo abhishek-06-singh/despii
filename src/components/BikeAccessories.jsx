@@ -29,7 +29,7 @@ function BikeAccessories() {
           <div className="flex flex-col space-y-2 font-manrope justify-center items-center text-center p-10 relative">
             <h2 className="text-white text-5xl mb-5 mt-5 p-10">
               Bike Accessories{" "}
-              <span className="bg-gradient-to-r text-5xl  from-amber-600 via-amber-700 to-amber-700 text-transparent bg-clip-text  font-bold lg:text-center text-left">
+              <span className="bg-gradient-to-r text-5xl  from-amber-600  to-purple-950 text-transparent bg-clip-text  font-bold lg:text-center text-left">
                 Marketplace{" "}
               </span>{" "}
             </h2>
@@ -106,7 +106,7 @@ function BikeAccessories() {
           <div className="flex flex-col space-y-2 font-manrope justify-center items-center text-center p-10 relative">
             <h1 className="text-white font-bold text-5xl mb-16 font-bold font-manrope">
               Le petit{" "}
-              <span className="bg-gradient-to-r text-5xl  from-amber-600 via-amber-700 to-amber-700 text-transparent bg-clip-text  font-bold lg:text-center text-left">
+              <span className="bg-gradient-to-r text-5xl  from-amber-600  to-purple-950 text-transparent bg-clip-text  font-bold lg:text-center text-left">
                 magasin
               </span>{" "}
             </h1>
