@@ -24,14 +24,14 @@ const CarBanner = () => {
       <div className="bg-neutral-900 p-10 ">
         {selectedLanguage === "English" && (
           <div className="flex flex-col space-y-28 font-manrope justify-center items-center mt-10 relavive">
-            <h2 className="text-white text-5xl ">
-              Whatever you need ,
+            <h2 className="text-white text-5xl font-bold ">
+              Whatever you need {" "}
               <span className="bg-gradient-to-r text-5xl  from-amber-600 via-pink-900 to-purple-900 text-transparent bg-clip-text  font-bold lg:text-center text-left">
                 Delivered
               </span>
             </h2>
             <div className="absolute bg-gradient-to-r from-orange-600/20 to-orange-800/20 rounded-full filter blur-3xl w-9/12 lg:h-44 md:h-[150vh] h-[170vh]  z-40"></div>
-            <div className="py-20 hidden lg:block">
+            <div className="pb-20 hidden lg:block">
               <img
                 src={horizontalBanner}
                 alt="vehicle-banner"
@@ -70,14 +70,14 @@ const CarBanner = () => {
 
         {selectedLanguage === "French" && (
           <div className="flex flex-col space-y-28 font-manrope justify-center items-center mt-10 relavive">
-            <h2 className="text-white text-5xl ">
+            <h2 className="text-white text-5xl font-bold ">
               Tout ce dont tu as besoin {""}
               <span className="bg-gradient-to-r text-5xl  from-amber-600 via-pink-900 to-purple-900 text-transparent bg-clip-text  font-bold lg:text-center text-left">
                 peux être livré
               </span>
             </h2>
             <div className="absolute bg-gradient-to-r from-orange-600/20 to-orange-800/20 rounded-full filter blur-3xl w-9/12 lg:h-44 md:h-[150vh] h-[170vh]  z-40"></div>
-            <div className="py-20 hidden lg:block">
+            <div className="pb-20 hidden lg:block">
               <img
                 src={horizontalBanner}
                 alt="vehicle-banner"

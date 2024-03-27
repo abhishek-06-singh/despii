@@ -9,7 +9,7 @@ function DeliveryDetails() {
 
   const deliveryType = [
     "Express Delivery",
-    "Sameday Delivery",
+    "Same-day Delivery",
     "Scheduled Delivery",
   ];
 
@@ -36,7 +36,7 @@ function DeliveryDetails() {
       </Helmet>
 
       <div className=" h-auto  bg-neutral-900">
-        <div className="w-auto h-auto filter blur-xl bg-black absolute opacity-40"></div>
+        <div className="w-auto h-auto filter blur-3xl bg-black absolute opacity-40"></div>
         <div className="w-auto h-auto filter blur-3xl bg-black absolute opacity-40"></div>
 
         {selectedLanguage === "English" && (
@@ -47,11 +47,11 @@ function DeliveryDetails() {
               className="h-full w-full absolute object-cover opacity-20"
             />
 
-            <h2 className="text-white text-5xl mb-4 z-999">
+            <h2 className="text-white font-extrabold text-3xl mb-4 z-999">
               However you{" "}
               <span
-                className=" text-5xl  bg-gradient-to-r from-[#DC6617]
-           to-[#47134B] text-transparent bg-clip-text  font-bold lg:text-center text-left z-999"
+                className=" text-3xl  bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text  font-extrabold lg:text-center text-left z-999"
               >
                 need it delivered{" "}
               </span>{" "}
@@ -63,7 +63,7 @@ function DeliveryDetails() {
               {deliveryType.map((item, idx) => (
                 <div
                   key={idx}
-                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl "
+                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-2xl font-bold "
                 >
                   {item}
                 </div>
@@ -74,7 +74,7 @@ function DeliveryDetails() {
               {deliveryType2.map((item, idx) => (
                 <div
                   key={idx}
-                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl"
+                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-2xl font-bold"
                 >
                   {item}
                 </div>
@@ -82,7 +82,7 @@ function DeliveryDetails() {
             </div>
 
             <div>
-              <p className="text-lg text-white p-2">
+              <p className="text-sm text-white p-2">
                 While live tracking the courier all long
               </p>
             </div>
@@ -97,11 +97,11 @@ function DeliveryDetails() {
               className="h-full w-full absolute object-cover opacity-20"
             />
 
-            <h2 className="text-white text-5xl mb-4">
+            <h2 className="text-white text-3xl font-extrabold mb-4 ">
               Quelle que soit la manière dont tu{" "}
               <span
-                className=" text-5xl  bg-gradient-to-r from-[#DC6617]
-           to-[#47134B] text-transparent bg-clip-text  font-bold lg:text-center text-left"
+                className=" text-3xl  bg-gradient-to-r from-[#DC6617]
+           to-[#47134B] text-transparent bg-clip-text  font-extrabold lg:text-center text-left"
               >
                 veux être livré{" "}
               </span>{" "}
@@ -111,7 +111,7 @@ function DeliveryDetails() {
               {deliveryTypeFrench.map((item, idx) => (
                 <div
                   key={idx}
-                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl "
+                  className="lg:px-8 lg:py-24 px-14 py-32 m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-2xl font-bold "
                 >
                   {item}
                 </div>
@@ -122,7 +122,7 @@ function DeliveryDetails() {
               {deliveryType2French.map((item, idx) => (
                 <div
                   key={idx}
-                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-3xl"
+                  className="lg:px-11 lg:py-24 px-16 py-32  m-2 bg-gradient-to-b from-purple-900/40  to-[#DC6617]/70 rounded-md visible font-manrope text-white text-2xl font-bold"
                 >
                   {item}
                 </div>
@@ -130,7 +130,7 @@ function DeliveryDetails() {
             </div>
 
             <div>
-              <p className="text-lg text-white font-manrope p-5">
+              <p className="text-sm text-white font-manrope p-5">
                 Avec un suivi en live de ton coli et du livreur.
               </p>
             </div>

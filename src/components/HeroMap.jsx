@@ -21,7 +21,7 @@ const HeroMap = () => {
 
         <meta name="keywords" content="Transport,Easy Ride,Transport Service" />
       </Helmet>
-      <div className="bg-neutral-900 lg:p-20 py-20 px-10 font-manrope">
+      <div className="bg-neutral-900 lg:p-20 lg:pt-14 py-20 px-10 font-manrope">
         {selectedLanguage === "English" && (
           <div className="flex flex-col">
             <p className="text-white  text-5xl lg:text-6xl lg:text-center text-left mt-5 font-manrope font-bold">
@@ -34,7 +34,7 @@ const HeroMap = () => {
                 dash in no time!
               </span>
             </p>
-            <p className="text-white mx-auto mt-5 lg:w-8/12 md:w-8/12 w-full lg:text-center md:text-center text-left ">
+            <p className="text-white mx-auto mt-5 lg:w-10/12 lg:px-12 md:w-8/12 w-full lg:text-center md:text-center text-left ">
               Contribute to a greener, more efficient city by sharing your ride
               with others, while enjoying the convenience of getting to your
               destination faster than ever before.
@@ -49,14 +49,12 @@ const HeroMap = () => {
             <span
               className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-           lg:text-center text-left ml-2 text-5xl lg:text-6xl font-bold"
+           lg:text-center text-left ml-2 text-6xl lg:text-5xl font-bold"
             >
               sans prise de tête!
             </span>
-            <p className="text-white mx-auto mt-5 lg:w-8/12 md:w-8/12 w-full lg:text-center md:text-center text-left ">
-              Contribue à une ville plus verte en partageant ton trajet avec
-              d'autres, tout en profitant d'arriver à destination plus
-              rapidement.
+            <p className="text-white mx-auto mt-5 lg:w-10/12 md:w-8/12 w-full lg:text-center md:text-center text-left text-xs">
+            Contribue à une ville plus verte en partageant ton trajet avec d'autres, tout en profitant d'arriver à destination plus rapidement.
             </p>
           </div>
         )}

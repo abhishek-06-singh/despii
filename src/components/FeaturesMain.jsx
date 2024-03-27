@@ -38,7 +38,7 @@ const FeaturesMain = () => {
           </div>
         )}
         {selectedLanguage === "French" && (
-          <div className="flex flex-col">
+          <div className="flex flex-col font-bold">
             <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left font-manrope">
               Fonctionnalités de l'application
             </span>

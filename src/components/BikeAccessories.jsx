@@ -59,7 +59,7 @@ function BikeAccessories() {
                     className="relative h-56 w-56 z-50"
                   />
                 </div>
-                <p className=" text-white text-xl">Gloves</p>
+                <p className=" text-white text-xl -mt-7">Gloves</p>
 
                 <div className="relative px-24 py-8 rounded-full bg-gradient-to-r from-amber-700 via-amber-600 to-amber-900 -top-32 filter blur-xl drop-shadow-lg z-10"></div>
               </div>
@@ -136,7 +136,7 @@ function BikeAccessories() {
                     className="relative h-56 w-56 z-50"
                   />
                 </div>
-                <p className=" text-white text-xl">Gants</p>
+                <p className=" text-white text-xl -mt-7">Gants</p>
 
                 <div className="relative px-24 py-8 rounded-full bg-gradient-to-r from-amber-700 via-amber-600 to-amber-900 -top-32 filter blur-xl drop-shadow-lg z-10"></div>
               </div>

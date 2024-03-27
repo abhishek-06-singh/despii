@@ -11,12 +11,12 @@ const BannerInfo = () => {
             <p
               className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-         lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl h-auto p-4 font-manrope"
+         lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl h-auto p-4 font-manrope font-bold"
             >
               Peers to Peers delivery & Store Delivery
             </p>
             <p
-              className="text-white
+              className="text-white font-bold 
            lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl mt-4 px-4 font-manrope"
             >
               With Despii Delivery send & receive
@@ -57,14 +57,14 @@ const BannerInfo = () => {
             <p
               className="bg-gradient-to-r from-[#DC6617]
            to-[#47134B] text-transparent bg-clip-text 
-         lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl h-auto p-4 font-manrope"
+         lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl h-auto p-4 font-manrope font-bold"
             >
               Livraison entre particuliers & Livraison de commerces en tout
               genre.
             </p>
             <p
               className="text-white
-           lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl mt-4 px-4 font-manrope"
+           lg:text-center text-left ml-2 lg:text-6xl md:text-6xl text-4xl mt-4 px-4 font-manrope font-bold"
             >
               Avec Despii envoyez et recevez vos colis en sécurité.
             </p>

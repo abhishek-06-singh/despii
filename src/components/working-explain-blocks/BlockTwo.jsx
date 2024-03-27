@@ -10,7 +10,7 @@ const BlockTwo = () => {
     <div className="bg-neutral-900 font-manrope ">
       {selectedLanguage === "English" && (
         <>
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
+          <div className="mx-auto  max-w-7xl py-24 lg:py-3 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
             <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
                 <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">
@@ -60,7 +60,7 @@ const BlockTwo = () => {
       )}
       {selectedLanguage === "French" && (
         <>
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
+          <div className="mx-auto max-w-7xl py-24 lg:py-3 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
             <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
                 <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">

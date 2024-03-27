@@ -81,6 +81,7 @@ const Hero = () => {
                 />
               </button>
             </div>
+
             <Menu as="div" className="relative  text-left hidden lg:block">
               <div>
                 <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-100 bg-white/20  rounded-md shadow-sm hover:bg-gray-50/50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 ">
@@ -124,10 +125,25 @@ const Hero = () => {
                 </div>
               </Menu.Items>
             </Menu>
+
+            <div className="flex hidden lg:block mx-10">
+              <button
+                type="button"
+                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
+                onClick={() => setMobileMenuOpen(true)}
+              >
+                <span className="sr-only">Open main menu</span>
+                <HiBars3BottomRight
+                  className=" text-white text-3xl"
+                  aria-hidden="true"
+                />
+              </button>
+            </div>
+            
           </nav>
           <Dialog
             as="div"
-            className="lg:hidden h-[30vh]"
+            className="h-[30vh]"
             open={mobileMenuOpen}
             onClose={setMobileMenuOpen}
           >
@@ -250,7 +266,7 @@ const Hero = () => {
                     transport industry
                   </motion.span>
                 </h1>
-                <p className="mb-4 text-lg leading-8 text-white max-w-3xl mx-auto font-manrope ">
+                <p className="mb-4  text-base leading-8 text-white max-w-3xl mx-auto font-manrope lg:mt-5">
                   The smart moped hailing app eco-friendly based on shared
                   economy, providing swift and hassle-free rides through
                   bustling city streets.
@@ -270,8 +286,8 @@ const Hero = () => {
                     style={{ display: "inline-block" }}
                   />
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-white max-w-3xl mx-auto font-manrope">
-                  L'application de coscooting malin pour tes trajets urbains.
+                <p className="mt-6 text-sm  leading-8 text-white max-w-lg mx-auto font-manrope">
+                  L'application de coscooting malin pour tes trajets urbains
                 </p>
               </div>
             )}
@@ -295,7 +311,7 @@ const Hero = () => {
                     transport industry
                   </motion.span>
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-white max-w-3xl mx-auto font-manrope">
+                <p className="mt-6 text-base leading-8 text-white max-w-3xl mx-auto font-manrope">
                   The smart moped hailing app eco-friendly based on shared
                   economy, providing swift and hassle-free rides through
                   bustling city streets.

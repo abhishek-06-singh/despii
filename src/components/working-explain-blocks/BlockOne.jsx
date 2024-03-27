@@ -10,8 +10,8 @@ const BlockOne = () => {
     <div className="bg-neutral-900 font-manrope ">
       {selectedLanguage === "English" && (
         <>
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
-            <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+          <div className="mx-auto max-w-7xl py-24 lg:pt-20 lg:pb-5 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
+            <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-12">
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
                 <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">
                   <FaArrowRight className="text-2xl text-white" />
@@ -33,7 +33,7 @@ const BlockOne = () => {
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
-                  className="absolute left-0 top-0 w-auto max-w-none rounded-t-[45px] bg-white/5 ring-1 ring-white/10"
+                  className="absolute lg:-top-14 left-0 top-0 w-auto max-w-none rounded-t-[45px] bg-white/5 ring-1 ring-white/10"
                   src={sideImg}
                   alt="App screenshot"
                   // style={{ clipPath: "inset(30px 0 0 0)" }}
@@ -62,8 +62,8 @@ const BlockOne = () => {
       )}
       {selectedLanguage === "French" && (
         <>
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
-            <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+          <div className="mx-auto max-w-7xl py-24 lg:pt-20 lg:pb-5 sm:px-6 sm:py-32 lg:px-10 font-manrope hidden lg:block ">
+            <div className="relative isolate overflow-hidden bg-neutral-500/10 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-12">
               <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto  lg:text-left ">
                 <div className=" p-3 rounded-xl border-2 border-white w-12 mt-5">
                   <FaArrowRight className="text-2xl text-white" />
@@ -84,7 +84,7 @@ const BlockOne = () => {
               </div>
               <div className="relative mt-16 h-[27rem] lg:mt-8 ">
                 <img
-                  className="absolute left-0 top-0 w-auto max-w-none rounded-t-[45px] bg-white/5 ring-1 ring-white/10"
+                  className="absolute left-0 lg:-top-14 w-auto max-w-none rounded-t-[45px] bg-white/5 ring-1 ring-white/10"
                   src={sideImg}
                   alt="App screenshot"
                   // style={{ clipPath: "inset(30px 0 0 0)" }}

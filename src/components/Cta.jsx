@@ -51,25 +51,25 @@ const Cta = () => {
               className=" h-full w-auto lg:mt-7 md:mt-24 block lg:hidden md:hidden  mt-0"
             />
             {selectedLanguage === "English" && (
-              <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 z-50 mx-auto">
+              <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 z-50 mx-auto left-0">
                 <div className="lg:max-w-lg">
                   <p className="mt-10  tracking-tight text-white text-6xl font-manrope">
-                    Get Started Now <br />
-                    For Free
+                    Get Started Now, <br />
+                    For Free!
                   </p>
                   <p className="text-white mx-auto mt-4">
-                    Well, what do you waiting for? Let’s download the app now
+                    Well, what do you waiting for? <br /> Let’s download the app now
                   </p>
                 </div>
 
-                <button className="flex bg-black/90 p-3 px-3 rounded-2xl hover:scale-110 font-bold transition-transform ease-in-out duration-300 justify-center items-center mt-10 mx-5 text-white z-50">
-                  <img src={appImg} alt="app-image" className="mr-4" />
+                <button className="flex bg-black/90 p-3 px-3 rounded-2xl hover:scale-110 font-bold transition-transform ease-in-out duration-300 justify-center items-center mt-10  text-white z-50">
+                  <img src={appImg} alt="app-image" className="mr-5" />
                   Download The App
                 </button>
               </div>
             )}
             {selectedLanguage === "French" && (
-              <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 mt-14 z-50 mx-auto">
+              <div className="hidden lg:block md:block  lg:pr-8 lg:pt-4 mt-14 z-50 mx-auto left-0">
                 <div className="lg:max-w-lg">
                   <p className="mt-10  tracking-tight text-white text-6xl font-manrope">
                     C'est parti!
@@ -79,8 +79,8 @@ const Cta = () => {
                   </p>
                 </div>
 
-                <button className="flex bg-black/90 p-3 px-3 rounded-2xl hover:scale-110 font-bold transition-transform ease-in-out duration-300 justify-center items-center mt-10 mx-5 text-white z-50">
-                  <img src={appImg} alt="app-image" className="mr-4" />
+                <button className="flex bg-black/90 p-3 px-3 rounded-2xl hover:scale-110 font-bold transition-transform ease-in-out duration-300 justify-center items-center mt-10  text-white z-50">
+                  <img src={appImg} alt="app-image" className="mr-5" />
                   Télécharger l'app
                 </button>
               </div>
