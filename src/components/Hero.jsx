@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { toggleDarkMode, selectDarkMode } from "../store/darkModeSlice";
 import { setLanguage, selectLanguage } from "../store/languageSlice";
 import { Menu, Transition, Dialog } from "@headlessui/react";
-import HeroBg from "../utils/bg-main.png";
+import HeroBg from "../utils/image 10.png";
 import { heroSvg } from "../svgs";
 import { MdUnarchive } from "react-icons/md";
 import bike from "../utils/32 1.png";
@@ -241,7 +241,7 @@ const Hero = () => {
           <img
             src={HeroBg}
             alt="Background Image"
-            className="absolute h-full w-full object-cover"
+            className="absolute h-full w-full object-cover opacity-100 filter saturate-150 contrast-125"
           />
 
           <div className="absolute inset-0 bg-black opacity-45"></div>
