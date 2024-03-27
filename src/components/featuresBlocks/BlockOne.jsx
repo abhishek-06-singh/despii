@@ -15,7 +15,7 @@ const BlockOne = () => {
                 <p className="mt-2 text-5xl  tracking-tight text-white  font-manrope">
                   Spontaneous or Scheduled Adventures
                 </p>
-                <p className="mt-6 text-sm lg:w-96 leading-8 text-gray-100 hidden lg:block md:block  font-manrope">
+                <p className="mt-6 text-sm lg:w-96 leading-8 text-gray-100 hidden lg:block md:block  font-manrope w-2/3">
                   Whether you're seizing the moment or planning ahead, our app
                   caters to both immediate and scheduled trips, ensuring you're
                   always on time for your next adventure.
@@ -39,7 +39,7 @@ const BlockOne = () => {
                 <p className="mt-2 text-5xl tracking-tight text-white  ">
                   En mode Spontané ou Programmé
                 </p>
-                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block">
+                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block w-2/3">
                   Que vous profitiez du moment présent ou que vous planifiez à
                   l'avance, notre application s'adapte aux voyages immédiats et
                   programmés, vous garantissant ainsi d'être toujours à l'heure

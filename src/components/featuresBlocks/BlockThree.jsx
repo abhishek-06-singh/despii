@@ -14,7 +14,7 @@ const BlockThree = () => {
                 <p className="mt-2 text-5xl  tracking-tight text-white  ">
                   Streamlined <br /> Mobility Simplified
                 </p>
-                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block">
+                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block w-2/3">
                   Embrace effortless urban travel with our intuitive and
                   user-friendly smart moped hailing app, designed to simplify
                   your journey through city streets with ease and simplicity.
@@ -38,7 +38,7 @@ const BlockThree = () => {
                 <p className="mt-2 text-5xl  tracking-tight text-white  ">
                   Mobilité Simplifié
                 </p>
-                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block">
+                <p className="mt-6 text-sm leading-8 text-gray-100 hidden lg:block md:block w-2/3">
                   Adoptez les déplacements urbains sans effort grâce à notre
                   application d'appel de coscooting intelligents, intuitive et
                   conviviale, Conçu pour simplifier vos voyages dans les rues de
