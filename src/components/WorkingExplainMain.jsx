@@ -14,11 +14,11 @@ const WorkingExplainMain = () => {
           <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left">
             How it Works
           </span>
-          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 ">
+          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5  font-bold">
             {" "}
             Got a moped?
           </p>
-          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 ">
+          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 font-bold">
             Do Yourself a favor by
             <span
               className="bg-gradient-to-r from-[#DC6617]
@@ -35,11 +35,11 @@ const WorkingExplainMain = () => {
           <span className="bg-gradient-to-r from-amber-600 via-amber-700 to-pink-700 text-transparent bg-clip-text text-xl font-bold lg:text-center text-left">
             Comment ça marche?
           </span>
-          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 ">
+          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 font-bold ">
             {" "}
             T'as un scooter?
           </p>
-          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 ">
+          <p className="text-white  text-4xl lg:text-6xl lg:text-center text-left mt-5 font-bold ">
             Rends-toi service en
             <span
               className="bg-gradient-to-r from-[#DC6617]

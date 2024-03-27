@@ -139,7 +139,6 @@ const Hero = () => {
                 />
               </button>
             </div>
-            
           </nav>
           <Dialog
             as="div"
@@ -245,9 +244,11 @@ const Hero = () => {
             className="absolute h-full w-full object-cover"
           />
 
-          <div className="absolute inset-0 bg-black opacity-65"></div>
+          <div className="absolute inset-0 bg-black opacity-45"></div>
 
           <div className="relative flex justify-center items-center lg:pt-[25rem] pt-[20rem] ">
+            <div className="hidden md:hidden lg:block ml-2 filter h-20 w-20 bg-orange-400 blur-2xl absolute left-[32rem] top-56"></div>
+            <div className="hidden md:hidden lg:block ml-2 filter h-20 w-20 bg-orange-400 blur-3xl absolute right-[32rem] top-72"></div>
             <img src={bike} alt="bike" className="absolute  object-cover " />
           </div>
           <div className=" flex relative h-96  w-full bg-black opacity-80 filter blur-3xl rounded-t-full justify-center items-center mx-auto bottom-10 lg:hidden md:hidden z-10"></div>
